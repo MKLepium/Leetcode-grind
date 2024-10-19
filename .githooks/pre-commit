@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Run the Python script to update the README
+python3 updateReadme.py
+
+# Add README.md to the commit if it was updated
+git add README.md
