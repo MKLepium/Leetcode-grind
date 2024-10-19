@@ -14,9 +14,9 @@ func NewFooBar(n int) *FooBar {
 }
 
 func (fb *FooBar) Foo(printFoo func()) {
-    	for i := 0; i < fb.n; i++ {
+    for i := 0; i < fb.n; i++ {
 		fb.fooLock.Lock()
-        // printFoo() outputs "foo". Do not change or remove this line.
+		// printFoo() outputs "foo". Do not change or remove this line.
 		printFoo()
 		fb.barLock.Unlock()
 	}
