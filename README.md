@@ -1,3 +1,3 @@
 # LeetCode Solutions
 
-Solved **20** problems so far!
+Solved **21** problems so far!
